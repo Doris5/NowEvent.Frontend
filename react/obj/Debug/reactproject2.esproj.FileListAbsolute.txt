@@ -1,0 +1,4 @@
+C:\Users\domin\Desktop\NowEventRepoV2\NowEventRepo.React\react\obj\Debug\reactproject2.esproj.SuggestedBindingRedirects.cache
+C:\Users\domin\Desktop\NowEventRepoV2\NowEventRepo.React\react\obj\Debug\reactproject2.esproj.CoreCompileInputs.cache
+C:\Users\domin\Desktop\nowevent\NowEvent.Frontend\react\obj\Debug\reactproject2.esproj.SuggestedBindingRedirects.cache
+C:\Users\domin\Desktop\nowevent\NowEvent.Frontend\react\obj\Debug\reactproject2.esproj.CoreCompileInputs.cache
