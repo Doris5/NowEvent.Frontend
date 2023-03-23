@@ -13,8 +13,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src\app\api\" />
-    <Folder Include="src\app\components\" />
+    <Folder Include="src\app\components\home\" />
+    <Folder Include="src\app\components\navbar\" />
+    <Folder Include="src\app\components\about\" />
+    <Folder Include="src\app\components\contact\" />
     <Folder Include="src\app\models\" />
+    <Folder Include="src\app\images\" />
     <Folder Include="src\app\router\" />
     <Folder Include="src\features\" />
   </ItemGroup>
