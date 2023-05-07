@@ -1,0 +1,89 @@
+.mainSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -50px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/partyBg.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainSlider .items-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+.mainSlider .event-title {
+    display: block;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: #1e88e5;
+}
+
+.mainSlider p {
+    color: #b8b8b8;
+    font-size: 18px;
+    padding: 10px 5px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.createEventButton {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+    background: linear-gradient( 90deg, rgb(35, 127, 167) 0%, rgb(72, 10, 100) 35%, rgb(25, 157, 197) 100% );
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.createEventButton svg {
+    margin-left: 10px;
+    transition: 0.5s ease;
+}
+
+.createEventButton:hover svg {
+    margin-left: 25px;
+}
+
+.mainSlider .img2 {
+    animation: updown 3s linear infinite;
+    width: 100%;
+    display: block;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.txt-rotate > .wrapper {
+    border-right: 0.08em solid #777;
+}
+
+@media (max-width: 767px) {
+    .mainSlider .img2 {
+        display: none;
+    }
+}

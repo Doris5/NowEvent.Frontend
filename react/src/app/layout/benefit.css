@@ -1,0 +1,146 @@
+/*#benefit {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.benefit-description {
+    width: 45%;
+    color: #fff;
+    list-style: circle;
+    text-align: center;
+
+}
+
+.benefit-description h1 {
+        font-size: 3rem;
+        color: #FF1414;
+        font-weight: 500;
+        margin: 0px;
+        padding: 0px;
+    }
+
+.benefit-description p {
+    font-size: 1.2rem;
+        color: #cecece;
+    }
+
+.benefit-description button {
+        margin-top: 20px;
+        width: 140px;
+        height: 45px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        background-color: #FF1414;
+    }
+
+.benefit-description button:hover {
+        box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+        background-color: rgb(0, 0, 0);
+        transition: all ease 0.3s;
+        color: #ffffff;
+    }
+
+.benefit-img { width: 50%; }
+    .benefit-img img {
+        width: 100%;
+        display: block;
+        background-color: orangered;
+        border-radius: 50%;
+    }
+*/
+#benefit {
+    background-color: #fff;
+    padding: 30px 0;
+}
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit h1 {
+    font-size: 50px;
+}
+
+.benefit .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+    .benefit .card {
+        gap: 5%;
+        width: 350px;
+        height: 100%;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px -8px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        transition: all 0.5s ease;
+    }
+
+.benefit .card:hover {
+    transform: scale(1.1);
+    
+}
+
+    .benefit .card .card-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+.benefit .card .card-top h2 {
+    font-size: 2rem;
+
+}
+
+.benefit .card .card-top img {
+    height: 200px;
+    width: 200px;
+}
+
+.benefit .card .card-center {
+    padding: 10px;
+}
+.benefit .card .card-bottom {
+    padding: 10px;
+    text-align: center;
+}
+
+.benefit .card .card-bottom button {
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.benefit .card .card-bottom button:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+C:\Users\domin\Desktop\nowevent\NowEvent.Frontend\react\obj\Debug\react.esproj.SuggestedBindingRedirects.cache
+C:\Users\domin\Desktop\nowevent\NowEvent.Frontend\react\obj\Debug\react.esproj.CoreCompileInputs.cache
